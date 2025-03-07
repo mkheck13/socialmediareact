@@ -13,7 +13,7 @@
 
 **Developer:** Michael Heckerman
 
-**Date Revised:** 3/6/25
+**Date Revised:** 3/7/25
 
 
 ## Link(s):
@@ -27,3 +27,5 @@
 **Reviewer:** Kassandra Spacek
 
 **Comments:** Everything looks good. The hover/button effects are all there. The only issue I see is the top background pattern goes over to the side too much and makes the page side scroll.
+
+**Update:** Fixed the overflow issue. Also noticed that some of the text was to small so I adjusted it to look more like the design.

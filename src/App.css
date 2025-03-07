@@ -1,78 +1,62 @@
 @font-face {
-  font-family: Inter;
-  src: url(./Assets/Inter-Medium.ttf);
+  font-family: "Inter";
+  src: url("./Assets/Inter-Medium.ttf");
 }
 
-
-.bgDark{
-  background-color:hsl(230, 17%, 14%);
+/* Light and Dark Mode Backgrounds */
+.bgDark {
+  background-color: hsl(230, 17%, 14%);
 }
 
 .bgLight {
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
 }
 
-
-.relative {
-  position: relative;
-  z-index: 1;
+/* Rectangle Backgrounds */
+.bgRectangleLight, .bgRectangleDark {
+  position: absolute;
+  width: 100%;
+  height: 30vh;
+  left: 0;
+  top: 0;
+  border-radius: 0 0 25px 25px;
+  z-index: 0;
 }
 
 .bgRectangleLight {
-  left: 0%;
-  top: 0%;
-  position: absolute;
-  height: 30vh;
-  min-width: 100vw;
   background: hsl(225, 100%, 98%);
-  border-radius: 0 0 25px 25px;
-  z-index: 0;
 }
 
 .bgRectangleDark {
-  left: 0%;
-  top: 0%;
-  position: absolute;
-  height: 30vh;
-  min-width: 100vw;
   background: hsl(232, 19%, 15%);
-  border-radius: 0 0 25px 25px;
-  z-index: 0;
 }
 
-.zIndex {
-  z-index: 1;
+/* Cards */
+.boxLight, .boxDark {
+  border-radius: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  cursor: pointer;
 }
-
-.minH {
-  min-height: 100vh;
-}
-
 
 .boxLight {
   background-color: hsl(227, 47%, 96%);
-  border-radius: 5px;
 }
 
 .boxLight:hover {
   background-color: hsl(227, 47%, 92%);
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 .boxDark {
   background-color: hsl(228, 28%, 20%);
-  border-radius: 5px;
 }
 
 .boxDark:hover {
   background-color: hsl(228, 28%, 25%);
-  border-radius: 5px;
-  cursor: pointer;
 }
 
+/* Social Media Bars */
 .igBar {
-  background: rgb(252, 196, 104);
   background: linear-gradient(90deg, rgba(252, 196, 104, 1) 0%, rgba(223, 73, 150, 1) 100%);
 }
 
@@ -92,16 +76,9 @@
   border-radius: 5px 5px 0 0;
 }
 
+/* Typography */
 .inter {
-  font-family: Inter;
-}
-
-.interLight {
-  font-family: Inter Light;
-}
-
-.interBold {
-  font-family: Inter Bold;
+  font-family: "Inter", sans-serif;
 }
 
 .bold {
@@ -114,20 +91,11 @@
 
 .followersNum {
   font-size: 55px;
-  height: 72px;
   margin-top: 5px;
 }
 
 .followers {
   letter-spacing: 5px;
-}
-
-.green {
-  color: hsl(163, 72%, 41%);
-}
-
-.red {
-  color: hsl(356, 69%, 56%);
 }
 
 .username {
@@ -138,22 +106,32 @@
   font-size: 14px;
 }
 
+/* Text Colors */
 .lightTxt1 {
-  color: hsl(228, 12%, 44%)
+  color: hsl(228, 12%, 44%);
 }
 
 .darkTxt1 {
-  color: hsl(228, 34%, 66%)
+  color: hsl(228, 34%, 66%);
 }
 
 .darkTxt2 {
-  color: hsl(0, 0%, 100%)
+  color: hsl(0, 0%, 100%);
 }
 
 .lightTxt2 {
   color: hsl(230, 17%, 14%);
 }
 
+.green {
+  color: hsl(163, 72%, 41%);
+}
+
+.red {
+  color: hsl(356, 69%, 56%);
+}
+
+/* Icons */
 .logos {
   width: 20px;
   height: 20px;
@@ -164,18 +142,20 @@
   height: 4px;
 }
 
+/* Lines */
 .hrLine {
   border: solid 1.5px hsl(228, 12%, 70%);
 }
 
 .darkHrLine {
   border-top-width: 0.1px;
-  border-color:hsl(228, 28%, 30%);
+  border-color: hsl(228, 28%, 30%);
 }
 
+/* Switch (Toggle Button) */
 .switch {
   position: relative;
-  display: inline block;
+  display: inline-block;
   width: 47px;
   height: 24px;
 }
@@ -214,10 +194,37 @@ input:checked + .slider {
 
 .slider:hover {
   background: linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
-  transition: 0.5s ease;
 }
 
 input:checked + .slider:before {
   transform: translateX(-23px);
   background-color: hsl(228, 28%, 20%);
+}
+
+/* Global Resets */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Grid & Layout Fixes */
+.grid {
+  width: 100%;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h3{
+  font-size:xx-large;
 }
