@@ -24,6 +24,6 @@
 
 ## FeedBack/Peer Review: 
 
-**Reviewer:** (Name Here)
+**Reviewer:** Kassandra Spacek
 
-**Comments:** (Comments Here)
+**Comments:** Everything looks good. The hover/button effects are all there. The only issue I see is the top background pattern goes over to the side too much and makes the page side scroll.
