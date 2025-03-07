@@ -2,7 +2,7 @@
 
 **Description:** With the provided assets remake the Social Media Dashboard in React.
 
-![Design preview for Social Media Dashboard]()
+![Design preview for Social Media Dashboard](/src/assets/SocialMediaScreenshot.png)
 
 ***Here are the requirements that are needed:***
 - Must have a component folder
@@ -18,9 +18,9 @@
 
 ## Link(s):
 
-[Github-Repo]()
+[Github-Repo](https://github.com/mkheck13/socialmediareact)
 
-[Vercel]()
+[Vercel](https://socialmediareact-ten.vercel.app/)
 
 ## FeedBack/Peer Review: 
 

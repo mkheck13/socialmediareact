@@ -1,0 +1,124 @@
+
+{
+    "overviewCards": [
+      {
+        "platform": "facebook",
+        "bar": "facebookBar",
+        "logo": "facebook",
+        "arrow": "up",
+        "username": "@nathanf",
+        "number": "1987",
+        "type": "FOLLOWERS",
+        "update": "12 Today",
+        "color": "green"
+      },
+      {
+        "platform": "twitter",
+        "bar": "twitterBar",
+        "logo": "twitter",
+        "arrow": "up",
+        "username": "@nathanf",
+        "number": "1044",
+        "type": "FOLLOWERS",
+        "update": "99 Today",
+        "color": "green"
+      },
+      {
+        "platform": "instagram",
+        "bar": "igBar",
+        "logo": "instagram",
+        "arrow": "up",
+        "username": "@nathanf",
+        "number": "11k",
+        "type": "FOLLOWERS",
+        "update": "1099 Today",
+        "color": "green"
+      },
+      {
+        "platform": "youtube",
+        "bar": "youtubeBar",
+        "logo": "youtube",
+        "arrow": "down",
+        "username": "Nathan F.",
+        "number": "8239",
+        "type": "SUBSCRIBERS",
+        "update": "144 Today",
+        "color": "red"
+      }
+    ],
+    "todayOverview": [
+      {
+        "platform": "facebook",
+        "type": "Page Views",
+        "logo": "facebook",
+        "number": "87",
+        "percent": "3%",
+        "arrow": "up",
+        "color": "green"
+      },
+      {
+        "platform": "facebook",
+        "type": "Likes",
+        "logo": "facebook",
+        "number": "52",
+        "percent": "2%",
+        "arrow": "down",
+        "color": "red"
+      },
+      {
+        "platform": "instagram",
+        "type": "Likes",
+        "logo": "instagram",
+        "number": "5462",
+        "percent": "2257%",
+        "arrow": "up",
+        "color": "green"
+      },
+      {
+        "platform": "instagram",
+        "type": "Profile Views",
+        "logo": "instagram",
+        "number": "52k",
+        "percent": "1375%",
+        "arrow": "up",
+        "color": "green"
+      },
+      {
+        "platform": "twitter",
+        "type": "Retweets",
+        "logo": "twitter",
+        "number": "117",
+        "percent": "303%",
+        "arrow": "up",
+        "color": "green"
+      },
+      {
+        "platform": "twitter",
+        "type": "Likes",
+        "logo": "twitter",
+        "number": "507",
+        "percent": "553%",
+        "arrow": "up",
+        "color": "green"
+      },
+      {
+        "platform": "youtube",
+        "type": "Likes",
+        "logo": "youtube",
+        "number": "107",
+        "percent": "19%",
+        "arrow": "down",
+        "color": "red"
+      },
+      {
+        "platform": "youtube",
+        "type": "Total Views",
+        "logo": "youtube",
+        "number": "1407",
+        "percent": "12%",
+        "arrow": "down",
+        "color": "red"
+      }
+    ],
+    "totalFollowers": "23,004"
+  }
